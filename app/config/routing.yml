@@ -1,0 +1,4 @@
+cabinet:
+    resource: "@CabinetBundle/Resources/config/routing.yml"
+    prefix:   /
+

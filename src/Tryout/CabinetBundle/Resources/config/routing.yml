@@ -1,0 +1,7 @@
+cabinet_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: CabinetBundle:Default:index }
+
+CabinetBundle_vendor:
+    resource: "@CabinetBundle/Resources/config/routing/vendor.yml"
+    prefix:   /vendor
